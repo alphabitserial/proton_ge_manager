@@ -1,0 +1,15 @@
+[package]
+name = "proton_ge_manager"
+version = "0.5.0"
+authors = ["alphabitserial <alphabitserial@pm.me>"]
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+dirs = "4.0"
+eframe = "0.15"
+flate2 = "1.0"
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tar = "0.4"
